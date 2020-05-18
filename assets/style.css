@@ -1,0 +1,33 @@
+/*!
+ * Tracy's Martial Arts of Davis custom css styles
+ * Copyright 2020 Parallel Design (https://paralleldesign.net/)
+ */
+
+.bd-sidebar, .bd-search {
+   border-bottom: 0px solid !important;
+   border-right: 0px solid !important;
+   top: 0rem !important;
+   background: #000;
+}
+nav#bd-docs-nav {
+  background: #000;
+}
+.bd-sidebar .nav>li>a {
+    color: #f3ededa6 !important;
+}
+.bd-sidebar .nav>.active>a, .bd-toc-item.active>.bd-toc-link, .bd-toc-link {
+    color: #f9f5f5d9 !important;
+}
+
+@media (min-width: 768px) {
+   .bd-sidebar {
+       height: calc(100vh - 0rem) !important;
+   }
+}
+main.bd-content {
+  background: url(../assets/brand/images/5animals1.jpg) repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
