@@ -1,3 +1,3 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^tracysmartialartsofdavis.com [NC]
-RewriteRule ^(.*)$ http://tracysmartialartsofdavis.com/$1 [L,R=301]
+RewriteRule ^(.*)$ http://www.tracysmartialartsofdavis.com/$1 [L,R=301]
